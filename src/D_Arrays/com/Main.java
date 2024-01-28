@@ -20,12 +20,15 @@ public class Main {
         System.out.println(Arrays.toString(numbers));
 
         //Multidimensional array   here: 2 rows 3 columns
-        int [][] dimenNumbers = { { 1,2,3}, {4,5,6}}
+        int [][] dimenNumbers = {
+                {1, 2, 3},
+                {4, 5, 6}
+        };
         System.out.println(Arrays.deepToString(dimenNumbers));
 
         //3 dimensional Array
-        int [][][] threedimensional = new int[][][];
-        threedimensional
+        //int [][][] threedimensional = new int[][][];
+
 
 
 
