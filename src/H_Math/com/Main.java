@@ -2,7 +2,9 @@ package H_Math.com;
 
 public class Main {
     public static void main(String[] args) {
+/*
         int result1 = Math.round(float a);
+
         int result2 = Math.round(double a);
 
         int aufrunden = Math.ceil(1.1F);        // 2
@@ -16,7 +18,7 @@ public class Main {
 
         double result = Math.round(Math.random() * 100);        //99.0
         int result2 = (int) (Math.round(Math.random() * 100));     //99
-
+*/
 
 
     }
