@@ -25,7 +25,7 @@ public class Main {
         int number = 1;
         switch (number) {
             case 1:
-                System.out.println("You´re an admin");
+            System.out.println("You´re an admin");
                 break;
 
             case 2:

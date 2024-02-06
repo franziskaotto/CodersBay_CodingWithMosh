@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Age");
+        System.out.print("Age: ");
         byte age = scanner.nextByte();
         System.out.println("your are " + age);
 
@@ -23,7 +23,13 @@ public class Main {
 
         Scanner scanner3 = new Scanner(System.in);
         System.out.print("Name:");
-        String name3 = scanner3.nextLine().trim();
+        String name3 = scanner3.nextLine().trim().toLowerCase();
+
+        if (name3.equals("franziska")) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
         System.out.println("your are " + name3);
 
     }
